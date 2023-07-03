@@ -37,7 +37,6 @@ padding: 0 20px;
 header {
 background-color: var(--color-secondary);
 padding: 20px 0;
-height: 200px;
 }
 
 header .container {
@@ -47,7 +46,8 @@ align-items: center;
 }
 
 header img {
-font-size: 1.5rem;
+max-width: 100px;
+border-radius: 50%;
 font-weight: 700;
 color: var(--color-tertiary);
 }
@@ -67,7 +67,7 @@ header .link:after{
     position: absolute;
     left: 0;
     bottom: -6px;
-    width: 70%;
+    width: 60%;
     height: 3px;
     background-color: var(--color-tertiary);
     transform-origin: right;
@@ -78,6 +78,11 @@ header .link:after{
 header .link:hover:after{
     transform-origin: left;
     transform: scaleX(1);
+}
+
+header i:hover{
+    color: var(--color-tertiary);
+    cursor: pointer;
 }
 
 .sign_in{
