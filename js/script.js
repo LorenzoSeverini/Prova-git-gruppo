@@ -11,3 +11,4 @@ btn.addEventListener('click', function () {
         document.getElementById('img').classList.remove('hide');
     }, 1000);
 });
+
