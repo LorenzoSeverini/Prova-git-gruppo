@@ -13,6 +13,7 @@ btn.addEventListener('click', function () {
     }, 1000);
 });
 
+<<<<<<< HEAD
 
 // Image over for the footer
 const hover = document.getElementsByClassName('image-hover');
@@ -26,3 +27,5 @@ for (let i = 0; i < hover.length; i++) {
         remove[i].classList.add('hide');
     })
 }
+=======
+>>>>>>> lorenzo
